@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lobster', cursive;
+}
+
+:root {
+  --sd: 1px 1px 1px #000;
+}
+
+.main_Div {
+  height: 100vh;
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #ebff66;
+  z-index: 2;
+}
+
+.main_Div p:nth-child(1) {
+  position: absolute;
+  -webkit-animation: slid 3s infinite linear alternate;
+          animation: slid 3s infinite linear alternate;
+  font-size: 2rem;
+  color: #0066FF;
+  text-shadow: 1px 1px 1px #000;
+  z-index: 1;
+}
+
+@-webkit-keyframes slid {
+  0% {
+    top: 10%;
+    left: 10%;
+  }
+  25% {
+    top: 20%;
+    left: 10%;
+  }
+  50% {
+    top: 30%;
+    right: 20%;
+  }
+  75% {
+    top: 10%;
+    left: 30%;
+  }
+  100% {
+    bottom: 30%;
+    right: 30%;
+  }
+}
+
+@keyframes slid {
+  0% {
+    top: 10%;
+    left: 10%;
+  }
+  25% {
+    top: 20%;
+    left: 10%;
+  }
+  50% {
+    top: 30%;
+    right: 20%;
+  }
+  75% {
+    top: 10%;
+    left: 30%;
+  }
+  100% {
+    bottom: 30%;
+    right: 30%;
+  }
+}
+
+.main_Div p:nth-child(2) {
+  position: absolute;
+  -webkit-animation: slid2 3s infinite linear alternate;
+          animation: slid2 3s infinite linear alternate;
+  font-size: 2rem;
+  color: #CC0066;
+  text-shadow: 1px 1px 1px #000;
+  z-index: 1;
+}
+
+@-webkit-keyframes slid2 {
+  0% {
+    top: 20%;
+    left: 20%;
+  }
+  25% {
+    top: 20%;
+    left: 10%;
+  }
+  50% {
+    bottom: 10%;
+    left: 20%;
+  }
+  75% {
+    top: 10%;
+    right: 30%;
+  }
+  100% {
+    bottom: 20%;
+    left: 30%;
+  }
+}
+
+@keyframes slid2 {
+  0% {
+    top: 20%;
+    left: 20%;
+  }
+  25% {
+    top: 20%;
+    left: 10%;
+  }
+  50% {
+    bottom: 10%;
+    left: 20%;
+  }
+  75% {
+    top: 10%;
+    right: 30%;
+  }
+  100% {
+    bottom: 20%;
+    left: 30%;
+  }
+}
+
+.main_Div p:nth-child(3) {
+  position: absolute;
+  -webkit-animation: slid3 3s infinite linear alternate;
+          animation: slid3 3s infinite linear alternate;
+  font-size: 2rem;
+  color: #00CCFF;
+  text-shadow: 1px 1px 1px #000;
+  z-index: 1;
+}
+
+@-webkit-keyframes slid3 {
+  0% {
+    top: 15%;
+    left: 15%;
+  }
+  25% {
+    top: 15%;
+    right: 5%;
+  }
+  50% {
+    bottom: 5%;
+    left: 15%;
+  }
+  75% {
+    top: 5%;
+    right: 25%;
+  }
+  100% {
+    bottom: 15%;
+    right: 25%;
+  }
+}
+
+@keyframes slid3 {
+  0% {
+    top: 15%;
+    left: 15%;
+  }
+  25% {
+    top: 15%;
+    right: 5%;
+  }
+  50% {
+    bottom: 5%;
+    left: 15%;
+  }
+  75% {
+    top: 5%;
+    right: 25%;
+  }
+  100% {
+    bottom: 15%;
+    right: 25%;
+  }
+}
+
+.main_Div p:nth-child(4) {
+  position: absolute;
+  -webkit-animation: slid4 3s infinite linear alternate;
+          animation: slid4 3s infinite linear alternate;
+  font-size: 2rem;
+  color: #00FF00;
+  text-shadow: 1px 1px 1px #000;
+  z-index: 1;
+}
+
+@-webkit-keyframes slid4 {
+  0% {
+    top: 10%;
+    left: 15%;
+  }
+  25% {
+    top: 5%;
+    right: 15%;
+  }
+  50% {
+    bottom: 25%;
+    left: 10%;
+  }
+  75% {
+    top: 5%;
+    right: 10%;
+  }
+  100% {
+    bottom: 20%;
+    left: 5%;
+  }
+}
+
+@keyframes slid4 {
+  0% {
+    top: 10%;
+    left: 15%;
+  }
+  25% {
+    top: 5%;
+    right: 15%;
+  }
+  50% {
+    bottom: 25%;
+    left: 10%;
+  }
+  75% {
+    top: 5%;
+    right: 10%;
+  }
+  100% {
+    bottom: 20%;
+    left: 5%;
+  }
+}
+
+.main_Div #title {
+  width: 100%;
+  text-align: center;
+  color: #009966;
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.main_Div #title span {
+  color: #FF00CC;
+  font-size: 3.8rem;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.main_Div #msg {
+  width: 100%;
+  text-align: center;
+  color: #009966;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.main_Div #type {
+  width: 80%;
+  background-color: #000;
+  color: #fff;
+  border: 20px solid #ef5552;
+  border-radius: 10px;
+  padding: .4rem;
+  z-index: 5;
+}
+
+.main_Div #btn {
+  width: 4rem;
+  background-color: #cc0000;
+  color: #fff;
+  text-align: center;
+  padding: .4rem 1rem;
+  border-radius: 10px;
+}
+
+.main_Div #btn:hover {
+  text-shadow: 1px 1px 1px #000;
+  -webkit-box-shadow: 1px 1px 10px #000;
+          box-shadow: 1px 1px 10px #000;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.main_Div a {
+  text-decoration: none;
+}
+
+.main_Div #btn2 {
+  width: 8rem;
+  background-color: #cc0000;
+  color: #fff;
+  text-align: center;
+  padding: .4rem 1rem;
+  border-radius: 10px;
+}
+
+.main_Div #btn2:hover {
+  text-shadow: 1px 1px 1px #000;
+  -webkit-box-shadow: 1px 1px 10px #000;
+          box-shadow: 1px 1px 10px #000;
+  border: 1px solid #fff;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+}
+
+@media (max-width: 200px) and (min-width: 100px) {
+  .main_Div {
+    height: 100vh;
+    width: 100vw;
+  }
+  .main_Div #title {
+    width: 100%;
+    font-size: 3rem;
+  }
+  .main_Div #title span {
+    font-size: 3.8rem;
+  }
+  .main_Div #msg {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .main_Div #type {
+    width: 80%;
+    border: 20px solid #ef5552;
+    padding: .4rem;
+  }
+  .main_Div #btn {
+    width: 4rem;
+    padding: .4rem 1rem;
+  }
+  .main_Div #btn2 {
+    width: 8rem;
+    padding: .4rem 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
